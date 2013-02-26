@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>html5 input forms</title>
+	</head>
+		<body>
+		<p>Please fill out the following form:</p>
+			<form>
+				<input type="search" name= “search_site” placeholder="Type to search..."/></br>	
+				<progress value="25" max="100">25%</progress></br>
+				Email Address<input type="email" name="email_address" placeholder="ex: JohnDoe@domain.com" autofocus= “autofocus” required= "required"/></br>
+				Website<input type="url" name="website" placeholder="ex: www.mywebsite.com"/>(optional)</br>
+				Telephone Number<input type="tel" name= "phone" placeholder="ex: 248-555-1212"/>(optional)</br>
+				Gender<input list="Gender" placeholder="Choose"/>
+					<datalist id="Gender" >
+						<option value="Male">
+						<option value="Feale">
+					</datalist></br>
+				Color<input type=“color” name=“color_choice” /></br>
+				Range<input type="range" name="amount"  min="1" max="10"/>(1-10)</br>
+				Quantity<input type="number" min="1" max="10"/></br>
+				Date<input type="date" placeholder="mm/dd/yy"/></br>
+				Time<input type="time" /></br>
+			</form>
+		</body>
+</html>
