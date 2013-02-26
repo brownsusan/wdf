@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+   <channel>
+      <title>Movie Reviews</title>
+      <link>http://brownsusan.github.com/dws/lab7/rss_link.html</link>
+      <description>Movie Reviews</description>
+      <language>en-us</language>
+		  <item>
+			<title>The Lorax</title>
+			<link>http://www.fandango.com/dr.seussthelorax_51897/movieoverview</link>
+			<description>This movie was a masterpiece.</description>
+		  </item>
+		  
+		  <item>
+		  	<title>Identity Thief</title>
+		  	<link>http://www.fandango.com/identitythief_155646/movieoverview</link>
+			<description>This movie was okay.</description>
+		  </item>
+		  
+		  <item>
+			<title>Warm Bodies</title>
+			<link>http://www.fandango.com/warmbodies_151397/movieoverview</link>
+			<description>This movie was awful.</description>
+		  </item>
+		  
+   </channel>
+</rss>
